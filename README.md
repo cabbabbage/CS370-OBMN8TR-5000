@@ -52,6 +52,7 @@ The Progress section is designed to provide a comprehensive overview of the stat
 ## Scrum Plan
 To add a task, include a number, a description, priority level (High, Medium, Low), and creator. Link the task number to the corresponding entry in the Progress section and fill out the table.
 ### Epic 1: Connectivity Setup
+##Story Points:
 - Develop a Pi-side startup script for SSH connection via reverse tunneling.
 - Implement user-side procedure for establishing an SSH shell.
 - Secure the connection with SSH key exchange.
@@ -77,6 +78,7 @@ To add a task, include a number, a description, priority level (High, Medium, Lo
 - **Creator:** (add creator eId)
 
 ### Epic 2: User Interface for Control
+####Story points:
 - Design and integrate a basic, intuitive UI for command input.
 - Include manual and autonomous mode control options within the UI.
 
@@ -101,6 +103,7 @@ To add a task, include a number, a description, priority level (High, Medium, Lo
 - **Creator:** (add creator eId)
 
 ### Epic 3: Raspberry Pi Command Processing
+####Story points:
 - Create a drone-side command shell for direct UI interaction.
 - Interpret UI commands into MAVLink messages for the flight controller.
 
@@ -125,6 +128,7 @@ To add a task, include a number, a description, priority level (High, Medium, Lo
 - **Creator:** (add creator eId)
 
 ### Epic 4: Data Acquisition and Transmission
+####Story points:
 - Implement video streaming and flight data transmission back to the user.
 - Provide command confirmation feedback.
 
@@ -149,6 +153,7 @@ To add a task, include a number, a description, priority level (High, Medium, Lo
 - **Creator:** (add creator eId)
 
 ### Epic 5: UI Enhancements for Data Display
+####Story points:
 - Upgrade UI to include a section for real-time video streaming.
 - Display flight data in a user-friendly manner.
 
@@ -173,15 +178,9 @@ To add a task, include a number, a description, priority level (High, Medium, Lo
 - **Creator:** (add creator eId)
 
 ### Epic 6: Multi-threading for Optimized Data Handling
+####Story points:
 - Implement multi-threading for handling video, data streams, and command inputs.
 - Integrate efficient encoding techniques for video streaming.
-
-## Com Stack and Basic Assembly Diagram
-- Omni GPS antenna
-- Flight Controller
-- LTE Shield
-- Raspberry Pi
-
 #### Tasks
 ##### Task Example
 - **Number:** [(add task #)](#progress)
@@ -201,6 +200,13 @@ To add a task, include a number, a description, priority level (High, Medium, Lo
 - **Description:** (add description)
 - **Priority Level:** (add priority level)
 - **Creator:** (add creator eId)
+
+## Com Stack and Basic Assembly Diagram
+- Omni GPS antenna
+- Flight Controller
+- LTE Shield
+- Raspberry Pi
+
 
 
 
