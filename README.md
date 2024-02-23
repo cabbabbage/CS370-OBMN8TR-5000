@@ -14,6 +14,8 @@
 - [Main Materials](#main-materials)
 
 ## Progress
+The Progress section is designed to provide a comprehensive overview of the status of tasks across all epics. It helps team members and stakeholders quickly understand which tasks are underway, who is responsible for them, and the progress towards completion.
+
 | Task Number | Epic Number | In Progress | Assignee | Date Started | Date Complete | Reviewer |
 |-------------|-------------|-------------|----------|--------------|---------------|----------|
 | [1.1](#task-11-establish-ssh-connection)         | 1           | [ ]         |          |              |               |          |
@@ -32,6 +34,7 @@ This project aims to create a sophisticated control system for a small multiroto
 - Utilize multi-threading for optimized data and command stream handling.
 
 ## Scrum Plan
+To add a task, include a number, a description, priority level (High, Medium, Low), and creator. Link the task number to the corresponding entry in the Progress section and fill out the table.
 ### Epic 1: Connectivity Setup
 - Develop a Pi-side startup script for SSH connection via reverse tunneling.
 - Implement user-side procedure for establishing an SSH shell.
@@ -43,7 +46,7 @@ This project aims to create a sophisticated control system for a small multiroto
 - **Priority Level:** High
 - **Creator:** Team Lead
 
-To add a task, include a number, a description, priority level (High, Medium, Low), and creator. Link the task number to the corresponding entry in the Progress section.
+
 
 ##### Task Example
 - **Number:** [(add task #)](#progress)
