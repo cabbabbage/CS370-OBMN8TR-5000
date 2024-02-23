@@ -1,7 +1,6 @@
 # 4G LTE Connected Multirotor Raspberry Pi Project
 
 ## Table of Contents
-- [Project Overview](#project-overview)
 - [Project Objectives](#project-objectives)
 - [Scrum Plan](#scrum-plan)
   - [Epic 1: Connectivity Setup](#epic-1-connectivity-setup)
@@ -10,9 +9,7 @@
   - [Epic 4: Data Acquisition and Transmission](#epic-4-data-acquisition-and-transmission)
   - [Epic 5: UI Enhancements for Data Display](#epic-5-ui-enhancements-for-data-display)
   - [Epic 6: Multi-threading for Optimized Data Handling](#epic-6-multi-threading-for-optimized-data-handling)
-- [Com Stack and Basic Assembly Diagram](#com-stack-and-basic-assembly-diagram)
-- [Main Materials](#main-materials)
-- 
+
 ## Project Overview
 This project aims to create a sophisticated control system for a small multirotor using 4G LTE connectivity, leveraging a Raspberry Pi as the command-and-control center. It enables the quadcopter to be operated remotely, supporting both manual and autonomous flight modes, and includes real-time video and data transmission back to the user.
 
