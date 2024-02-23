@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 -  [Progress](#progress)
+-  [Team](#team).
 - [Scrum Plan](#scrum-plan)
   - [Epic 1: Connectivity Setup](#epic-1-connectivity-setup)
   - [Epic 2: User Interface for Control](#epic-2-user-interface-for-control)
