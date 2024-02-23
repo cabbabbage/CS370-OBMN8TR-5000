@@ -1,7 +1,7 @@
 # 4G LTE Connected Multirotor Raspberry Pi Project
 
 ## Table of Contents
-- [Project Objectives](#project-objectives)
+- [Project Overview](#project-overview)
 - [Scrum Plan](#scrum-plan)
   - [Epic 1: Connectivity Setup](#epic-1-connectivity-setup)
   - [Epic 2: User Interface for Control](#epic-2-user-interface-for-control)
