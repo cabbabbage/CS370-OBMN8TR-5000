@@ -16,7 +16,10 @@
 ## Progress
 | Task Number | Epic Number | In Progress | Assignee | Date Started | Date Complete | Reviewer |
 |-------------|-------------|-------------|----------|--------------|---------------|----------|
-| 1.1         | 1           | [ ]         |          |              |               |          | 
+| [1.1](#task-11-establish-ssh-connection)         | 1           | [ ]         |          |              |               |          |
+*Note: Click on the task number to navigate to the detailed task description.*
+
+ 
 
 ## Project Overview
 This project aims to create a sophisticated control system for a small multirotor using 4G LTE connectivity, leveraging a Raspberry Pi as the command-and-control center. It enables the quadcopter to be operated remotely, supporting both manual and autonomous flight modes, and includes real-time video and data transmission back to the user.
