@@ -12,6 +12,9 @@
   - [Epic 6: Multi-threading for Optimized Data Handling](#epic-6-multi-threading-for-optimized-data-handling)
 - [Com Stack and Basic Assembly Diagram](#com-stack-and-basic-assembly-diagram)
 - [Main Materials](#main-materials)
+- 
+## Project Overview
+This project aims to create a sophisticated control system for a small multirotor using 4G LTE connectivity, leveraging a Raspberry Pi as the command-and-control center. It enables the quadcopter to be operated remotely, supporting both manual and autonomous flight modes, and includes real-time video and data transmission back to the user.
 
 ## Progress
 The Progress section is designed to provide a comprehensive overview of the status of tasks across all epics. It helps team members and stakeholders quickly understand which tasks are underway, who is responsible for them, and the progress towards completion.
@@ -22,16 +25,29 @@ The Progress section is designed to provide a comprehensive overview of the stat
 *Note: Click on the task number to navigate to the detailed task description.*
 
  
+## Team
 
-## Project Overview
-This project aims to create a sophisticated control system for a small multirotor using 4G LTE connectivity, leveraging a Raspberry Pi as the command-and-control center. It enables the quadcopter to be operated remotely, supporting both manual and autonomous flight modes, and includes real-time video and data transmission back to the user.
+### Calvin
+- **GitHub Username:** cabbabbage
+- **EID:** rollo
+- **Phone Number:** 970-666-1069
+- **Email:** rollo@colostate.edu
 
-## Project Objectives
-- Develop a secure and reliable SSH-based communication link.
-- Implement a user-friendly interface for real-time control and navigation.
-- Enable effective command relay to the quadcopter's flight controller.
-- Stream live video and telemetry data enhancing operational awareness.
-- Utilize multi-threading for optimized data and command stream handling.
+### Team Member 2
+- **GitHub Username:** 
+- **EID:** 
+- **Phone Number:** 
+- **Email:** 
+
+### Team Member 3
+- **GitHub Username:** 
+- **EID:** 
+- **Phone Number:** 
+- **Email:** 
+
+
+
+
 
 ## Scrum Plan
 To add a task, include a number, a description, priority level (High, Medium, Low), and creator. Link the task number to the corresponding entry in the Progress section and fill out the table.
