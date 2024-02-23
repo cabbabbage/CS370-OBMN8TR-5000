@@ -13,6 +13,11 @@
 - [Com Stack and Basic Assembly Diagram](#com-stack-and-basic-assembly-diagram)
 - [Main Materials](#main-materials)
 
+## Progress
+| Task Number | Epic Number | In Progress | Assignee | Date Started | Date Complete | Reviewer |
+|-------------|-------------|-------------|----------|--------------|---------------|----------|
+| 1.1         | 1           | [ ]         |          |              |               |          | 
+
 ## Project Overview
 This project aims to create a sophisticated control system for a small multirotor using 4G LTE connectivity, leveraging a Raspberry Pi as the command-and-control center. It enables the quadcopter to be operated remotely, supporting both manual and autonomous flight modes, and includes real-time video and data transmission back to the user.
 
@@ -28,22 +33,122 @@ This project aims to create a sophisticated control system for a small multiroto
 - Develop a Pi-side startup script for SSH connection via reverse tunneling.
 - Implement user-side procedure for establishing an SSH shell.
 - Secure the connection with SSH key exchange.
+#### Tasks
+##### Task 1.1: Establish SSH Connection
+- **Number:** [1.1](#progress)
+- **Description:** Develop a startup script for establishing an SSH connection via reverse tunneling.
+- **Priority Level:** High
+- **Creator:** Team Lead
+
+To add a task, include a number, a description, priority level (High, Medium, Low), and creator. Link the task number to the corresponding entry in the Progress section.
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
 
 ### Epic 2: User Interface for Control
 - Design and integrate a basic, intuitive UI for command input.
 - Include manual and autonomous mode control options within the UI.
 
+#### Tasks
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
 ### Epic 3: Raspberry Pi Command Processing
 - Create a drone-side command shell for direct UI interaction.
 - Interpret UI commands into MAVLink messages for the flight controller.
+
+  #### Tasks
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
 
 ### Epic 4: Data Acquisition and Transmission
 - Implement video streaming and flight data transmission back to the user.
 - Provide command confirmation feedback.
 
+#### Tasks
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
 ### Epic 5: UI Enhancements for Data Display
 - Upgrade UI to include a section for real-time video streaming.
 - Display flight data in a user-friendly manner.
+
+  #### Tasks
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
 
 ### Epic 6: Multi-threading for Optimized Data Handling
 - Implement multi-threading for handling video, data streams, and command inputs.
@@ -55,6 +160,31 @@ This project aims to create a sophisticated control system for a small multiroto
 - LTE Shield
 - Raspberry Pi
 
+#### Tasks
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+##### Task Example
+- **Number:** [(add task #)](#progress)
+- **Description:** (add description)
+- **Priority Level:** (add priority level)
+- **Creator:** (add creator eId)
+
+
+
+
+
+  
 ## Main Materials
 - 4g/LTE cellular HAT
 - Raspberry Pi 3 A+
