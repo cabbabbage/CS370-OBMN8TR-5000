@@ -52,7 +52,7 @@ The Progress section is designed to provide a comprehensive overview of the stat
 ## Scrum Plan
 To add a task, include a number, a description, priority level (High, Medium, Low), and creator. Link the task number to the corresponding entry in the Progress section and fill out the table.
 ### Epic 1: Connectivity Setup
-####Story Points:
+#### Story Points:
 - Develop a Pi-side startup script for SSH connection via reverse tunneling.
 - Implement user-side procedure for establishing an SSH shell.
 - Secure the connection with SSH key exchange.
