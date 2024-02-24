@@ -32,11 +32,11 @@ The Progress section is designed to provide a comprehensive overview of the stat
 - **Phone Number:** 970-666-1069
 - **Email:** rollo@colostate.edu
 
-### Team Member 2
-- **GitHub Username:** 
-- **EID:** 
-- **Phone Number:** 
-- **Email:** 
+### Diego
+- **GitHub Username:** diegocelorio
+- **EID:** diegocel
+- **Phone Number:** 936-333-0744
+- **Email:** diegocel@colostate.edu
 
 ### Team Member 3
 - **GitHub Username:** 
