@@ -223,4 +223,62 @@ class server_com extends Thread {
         String[] content = {type, id, validator};
         transmit(content);
     }
+
+
+    //Extra functions
+    public void land(){
+        String id = genId();
+        String type = "L";
+        String validator = "coming home";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
+    public void setAlt(){
+        String id = genId();
+        String type = "SA";
+        String validator = "is good";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
+    public void hold(){
+        String id = genId();
+        String type = "H";
+        String validator = "hold up wait a minute";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
+    public void takeOff(){
+        String id = genId();
+        String type = "TO";
+        String validator = "blasting";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
+    public void missionUpdate(){
+        String id = genId();
+        String type = "MU";
+        String validator = "Sir, yes sir";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
+    public void arm(){
+        String id = genId();
+        String type = "AR";
+        String validator = "heck yeah";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
+    public void Kill(){
+        String id = genId();
+        String type = "NO";
+        String validator = "please don't do this man";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
 }
