@@ -4,6 +4,8 @@ import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.awt.*;
+import javax.swing.*;
 
 class server_com extends Thread {
     private Socket clientSocket;
@@ -280,5 +282,34 @@ class server_com extends Thread {
         String validator = "please don't do this man";
         String[] content = {type, id, validator};
         transmit(content);
+    }
+
+    //The GUI
+    public void GUI(){
+        JFrame frame = new JFrame("My First GUI");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(300,300);
+
+        FlowLayout layout = new FlowLayout();
+        frame.setLayout(layout);
+
+        JButton start = new JButton("Start");
+        JButton land = new JButton("Land");
+        JButton setAlt = new JButton("Set Alt");
+        JButton hold = new JButton("Hold");
+        JButton takeOff = new JButton("Take Off");
+        JButton missionUpdate = new JButton("Mission Update");
+        JButton arm = new JButton("Arm");
+        JButton kill = new JButton("Kill");
+        
+        frame.getContentPane().add(start);
+        frame.getContentPane().add(land);
+        frame.getContentPane().add(setAlt);
+        frame.getContentPane().add(hold);
+        frame.getContentPane().add(takeOff);
+        frame.getContentPane().add(missionUpdate);
+        frame.getContentPane().add(arm);
+        frame.getContentPane().add(kill);
+        frame.setVisible(true);
     }
 }
