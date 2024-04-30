@@ -1,7 +1,8 @@
 import sys
 from Log import Log  
-from pi.control import ClientCom 
-from connect import run
+from control import ClientCom 
+from pi.drone_functions.connect import run
+from Mav_Shell import BashShell
 
 def main(server_address, server_port, key):
     drone  = run()
@@ -14,8 +15,6 @@ def main(server_address, server_port, key):
         client = ClientCom(server_address, server_port, log, drone)
         client.start()
         print("Connected to server")
-
-        # Send key to server and check for response
         client.send_data(key)
         client.join()  # Wait for the thread to finish
 
