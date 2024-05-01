@@ -36,7 +36,7 @@ class server_com extends Thread {
         try {
             dos.writeUTF(to_send);
             dos.flush();
-            if(content[2] == null){
+            if(content[2] != ""){
                 waiting_responses.add(content);
             }
             String[] logContent = new String[content.length + 1];
@@ -235,29 +235,39 @@ class server_com extends Thread {
         String[] content = {type, id, validator};
         transmit(content);
     }
+
+    public void demo(){
+        String id = genId();
+        String type = "CSU";
+        String validator = "All good";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
+    public void GoTo(){
+        String id = genId();
+        String type = "GT";
+        String validator = "went";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+
     public void land_Home(){
         String id = genId();
         String type = "LH";
-        String validator = "coming home";
+        String validator = "land home";
         String[] content = {type, id, validator};
         transmit(content);
     }
 
-    public void setAlt(){
+    public void setAlt(String alt){
         String id = genId();
         String type = "SA";
-        String validator = "is good";
+        String validator = alt;
         String[] content = {type, id, validator};
         transmit(content);
     }
 
-    public void hold(){
-        String id = genId();
-        String type = "H";
-        String validator = "hold up wait a minute";
-        String[] content = {type, id, validator};
-        transmit(content);
-    }
 
     public void takeOff(){
         String id = genId();
@@ -271,18 +281,60 @@ class server_com extends Thread {
     public void arm(){
         String id = genId();
         String type = "AR";
-        String validator = "heck yeah";
+        String validator = "heck yeah"; 
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+    
+    public void disarm(){
+        String id = genId();
+        String type = "DA";
+        String validator = "heck yeah"; 
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+    
+    public void handleFileUpload(String fileContent){
+        String id = genId();
+        String type = "FU";
+        String validator = "File Upload Success"; 
+        String[] content = {type, id, validator, fileContent};
+        transmit(content);
+    }
+    
+    public void runUploadedMission(){
+        String id = genId();
+        String type = "RU";
+        String validator = "Mission Run Success"; 
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+    
+    public void kill(){
+        String id = genId();
+        String type = "NO";
+        String validator = "Kill Success";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+    
+    public void hover(){
+        String id = genId();
+        String type = "HV";
+        String validator = "chillin";
         String[] content = {type, id, validator};
         transmit(content);
     }
 
-    public void Kill(){
+    public void resume() {
         String id = genId();
-        String type = "NO";
-        String validator = "please don't do this man";
+        String type = "RE";
+        String validator = ""; // Empty validator as there may not be a specific success message for resuming
         String[] content = {type, id, validator};
         transmit(content);
     }
+    
+    
 
     //The GUI
     public void GUI(){
