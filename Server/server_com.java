@@ -228,9 +228,16 @@ class server_com extends Thread {
 
 
     //Extra functions
-    public void land(){
+    public void land_Now(){
         String id = genId();
-        String type = "L";
+        String type = "LN";
+        String validator = "landing";
+        String[] content = {type, id, validator};
+        transmit(content);
+    }
+    public void land_Home(){
+        String id = genId();
+        String type = "LH";
         String validator = "coming home";
         String[] content = {type, id, validator};
         transmit(content);
@@ -260,13 +267,6 @@ class server_com extends Thread {
         transmit(content);
     }
 
-    public void missionUpdate(){
-        String id = genId();
-        String type = "MU";
-        String validator = "Sir, yes sir";
-        String[] content = {type, id, validator};
-        transmit(content);
-    }
 
     public void arm(){
         String id = genId();
